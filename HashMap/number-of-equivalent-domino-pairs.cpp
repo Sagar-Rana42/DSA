@@ -45,7 +45,13 @@ class Solution {
                
                 
             }
-    
+    // ++++++++++++++++++ Approach 3 :- using constant space ++++++++++
+            // vector<int>(100,0);
+            // first put smaller number and larger no 
+            // use nums[i][0]* 10 + nums[i][1];
+            // and check is it present aleady , then add its freq and then increase the frequency 
             return ans;
         }
+
+
     };
